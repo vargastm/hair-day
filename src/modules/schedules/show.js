@@ -23,7 +23,7 @@ export function scheduleShow({ dailySchedules }) {
 
       const cancelIcon = document.createElement("img")
       cancelIcon.classList.add("cancel-icon")
-      cancelIcon.setAttribute("src", "./src/assets.cancel.svg")
+      cancelIcon.setAttribute("src", "./src/assets/cancel.svg")
       cancelIcon.setAttribute("alt", "Cancelar")
 
       item.append(time, name, cancelIcon)
